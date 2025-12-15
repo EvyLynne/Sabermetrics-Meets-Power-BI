@@ -8,8 +8,8 @@ I was ingesting the database into SQL Server, I found that the relationships wer
 I wound up opened the MS Access version and accessed the diagram and documented the relationships.  Many of the relationship types were listed as "indeterminate".  
 I will need to explore the data further and continue to read the docs.  If the data will allow, I'll create a SSMS version with explicit relationships.
 
-References:
-Society For American Baseball Research, Lahman Database: https://sabr.org/lahman-database, created by SABR member Sean Lahman.
-Society For American Baseball Research: https://sabr.org/about
-Wikipedia about Sabermetrics: https://en.wikipedia.org/wiki/Sabermetrics
-Moneyball: The Art of Winning an Unfair Game by Michael Lewis
+References:<br>
+Society For American Baseball Research, Lahman Database: https://sabr.org/lahman-database, created by SABR member Sean Lahman.<br>
+Society For American Baseball Research: https://sabr.org/about<br>
+Wikipedia about Sabermetrics: https://en.wikipedia.org/wiki/Sabermetrics<br>
+Moneyball: The Art of Winning an Unfair Game by Michael Lewis<br>
