@@ -8,7 +8,7 @@ There is an organization, Society For American Baseball Research, that maintains
 My version of this report is meant to be portable, so I decided to set up the data in PowerBI by ingesting .csv files.  <br>
 Since the column names are consistent across the database, Power BI was able to make some initial setup in the relationship editor, but I wasn't able to read the diagram provided clearly. <br>
 I was ingesting the database into SQL Server, I found that the relationships were not explicitly defined.  <br>
-I wound up opened the MS Access version and accessed the diagram and documented the relationships.  Many of the relationship types were listed as "indeterminate" and I found that at least one is many-to-many. <br>
+I wound up opened the MS Access version and accessed the diagram and documented the relationships in a Data Dictionary Excel File.  Many of the relationship types were listed as "indeterminate" and I found that at least one is many-to-many. <br>
 As I explored the SSMS tables, I found that some of the tables have been indexed and some with multiple indexes. I will research indexing vs. primary keys to learn more about the structure before I make changes. <br>
 I will need to explore the data further and continue to read the docs.  If the data will allow, I'll create a SSMS version with explicit relationships.<br>
 
