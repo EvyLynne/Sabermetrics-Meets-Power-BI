@@ -18,6 +18,9 @@ Unfortunately due to size limits I couldn't upload my edited version of the SQL 
 https://drive.google.com/drive/folders/1UwxAdLpdis8M-dfJsp4_90UIpojU7-iv?usp=drive_link  <br>
 I will continue to explore the data further and reread the docs.  If the data will allow, I'll create a SSMS version with explicit relationships.<br>
 
+### Notes:<br>
+I found an error in the docs for People table, finalGame column description.  It read, "Date that player made first major league appearance".  When I added to the extended properties, I rewrote as: "Date that player made final [sic] major league appearance".
+
 ### References:<br>
 Society For American Baseball Research, Lahman Database: https://sabr.org/lahman-database, created by SABR member Sean Lahman.<br>
 Society For American Baseball Research: https://sabr.org/about<br>
