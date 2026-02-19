@@ -1,0 +1,4 @@
+SELECT Batting.playerID, People.nameLast, People.nameFirst, People.birthYear, People.birthMonth, People.birthDay, People.debut, People.finalGame, Sum(Batting.G) AS SumOfG, Sum(Batting.AB) AS SumOfAB, Sum(Batting.R) AS SumOfR, Sum(Batting.H) AS SumOfH, Sum(Batting.[2B]) AS SumOf2B, Sum(Batting.[3B]) AS SumOf3B, Sum(Batting.HR) AS SumOfHR, Sum(Batting.RBI) AS SumOfRBI, Sum(Batting.SB) AS SumOfSB, Sum(Batting.CS) AS SumOfCS, Sum(Batting.BB) AS SumOfBB, Sum(Batting.SO) AS SumOfSO, Sum(Batting.IBB) AS SumOfIBB, Sum(Batting.HBP) AS SumOfHBP, Sum(Batting.SH) AS SumOfSH, Sum(Batting.SF) AS SumOfSF, Sum(Batting.GIDP) AS SumOfGIDP
+FROM People INNER JOIN Batting ON People.playerID = Batting.playerID
+GROUP BY Batting.playerID, People.nameLast, People.nameFirst, People.birthYear, People.birthMonth, People.birthDay, People.debut, People.finalGame
+ORDER BY Batting.playerID;
