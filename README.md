@@ -8,15 +8,15 @@ There is an organization, Society For American Baseball Research, that maintains
 
 Although my version of this report is meant to be easily portable and I had decided upon using the .csv file version; I may create a version of the report that pulls from SSMS and maybe MS Access as well.  <br>  <br>
 ### Initial Data Exploration and Setup:<br>
-Since the column names are consistent across the database, Power BI was able to make some initial setup in the relationship editor, but I wasn't able to read the diagram provided clearly. <br>
-I ingested the database into SQL Server for faster querying and to see if I could pull the relationships using a query and I found that the relationships were not explicitly defined.  <br> 
-I opened the MS Access version and accessed the diagram and documented the relationships in a Data Dictionary Excel File.  Many of the relationship types were listed as "indeterminate" and I found that at least one is many-to-many.  <br>
+Since the column names are consistent across the database, Power BI was able to make some initial setup in the relationship editor, but I wasn't able to read the diagram provided clearly. <br><br>
+I ingested the database into SQL Server for faster querying and to see if I could pull the relationships using a query and I found that the relationships were not explicitly defined.  <br> <br>
+I opened the MS Access version and accessed the diagram and documented the relationships in a Data Dictionary Excel File.  Many of the relationship types were listed as "indeterminate" and I found that at least one is many-to-many.  <br><br>
 This will need more investigation once I have a better understanding of the data. <br>
 As I explored the SSMS tables, I found that some of the tables have been indexed and some with multiple indexes. I will research indexing vs. primary keys to learn more about the structure before I make changes. <br> <br>
 I found great definitions in the docs that I began writing into SSMS in the Extended Properties.  The tables are all documented. I plan to do the columns next. <br>
 Unfortunately due to size limits I couldn't upload my edited version of the SQL Server Database to GitHub.  I stored it on my Google Drive and changed the permissions to anyone with a link.  It's available here:
-https://drive.google.com/drive/folders/1UwxAdLpdis8M-dfJsp4_90UIpojU7-iv?usp=drive_link  <br>
-I will continue to explore the data further and reread the docs.  If the data will allow, I'll create a SSMS version with explicit relationships.<br>
+https://drive.google.com/drive/folders/1UwxAdLpdis8M-dfJsp4_90UIpojU7-iv?usp=drive_link  <br><br>
+I will continue to explore the data further and reread the docs.  If the data will allow, I'll create a SSMS version with explicit relationships.<br><br>
 
 ### Notes:<br>
 I found an error in the docs for People table, finalGame column description.  It read, "Date that player made first major league appearance".  When I added to the extended properties, I rewrote as: "Date that player made final [sic] major league appearance".
